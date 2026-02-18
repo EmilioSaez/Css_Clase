@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos esenciales para el navegador y SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ejemplo de web semántica para aprender CSS."
+    />
+    <title>La Identidad Digital de Nuestro Instituto</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="La tarta de queso" />
+    <meta
+      property="og:description"
+      content="La receta definitiva de tarta de queso.."
+    />
+    <meta property="og:image" content="URL_de_la_imagen_de_previsualización" />
+    <meta property="og:url" content="URL_de_la_página" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Nombre del Sitio" />
+
+    <!-- Enlace a la futura hoja de estilos -->
+    <link rel="stylesheet" href="Trabajo_Html_Css.css" />
+
+    <link rel="icon" href="Logo_Caminas.png" type="image/png"> 
+
+  </head>
+  <body>
+    <!-- Cabecera principal: suele contener el logo y el título principal -->
+    <header id="main-header">
+      <!-- ToDo Navegación Web y elminiar viñetas y subrrayados de css -->
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#noticia">Noticias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido principal y único de la página -->
+    <main>
+      <!-- Un artículo independiente y autocontenido -->
+      <article>
+        <header>
+          <h1>IES El Caminas</h1>
+          <p>
+            Publicado por <em>Juan Pérez</em> el
+            <time datetime="2025-03-15">15 de marzo de 2025</time>
+          </p>
+        </header>
+
+        <p>
+          HTML5 no solo es una actualización, sino una
+          <strong>revolución</strong> que permite crear sitios más accesibles.
+        </p>
+
+        <!-- Uso de figure para agrupar imagen y descripción -->
+        <figure>
+          <img
+            src="web.semantica.png"
+            alt="Esquema de etiquetas semánticas de HTML5"
+            width="442"
+            height="540"
+          />
+          <figcaption>
+            Fig 1. Ejemplo de la estructura visual de un documento semántico.
+          </figcaption>
+        </figure>
+
+        <p>
+          Al separar el contenido de la apariencia, el código es más fácil de
+          mantener y más flexible.
+        </p>
+
+        <!-- Cita de texto con su fuente -->
+        <blockquote cite="https://www.w3.org/">
+          <p>
+            La web es más que un conjunto de documentos; es una plataforma de
+            aplicaciones.
+          </p>
+        </blockquote>
+
+        <!-- Sección temática dentro del artículo -->
+        <section>
+          <h3>Comentarios</h3>
+          <p>Aquí irían las opiniones de los lectores.</p>
+        </section>
+
+        <!-- Elemento interactivo para ampliar información -->
+        <details>
+          <summary>Más detalles técnicos</summary>
+          <p>HTML5 introdujo etiquetas como nav, main, section y article.</p>
+        </details>
+      </article>
+    </main>
+
+    <!-- Información secundaria o tangencial (barra lateral) -->
+    <aside>
+      <h4>Enlaces de interés</h4>
+      <ul>
+        <li>
+          <a
+            href="https://validator.w3.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Validador W3C</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.w3schools.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >W3Schools</a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <!-- Pie de página: copyright y datos de contacto -->
+    <footer id="contacto">
+      <p>&copy; 2025 Diario Tecnológico. Todos los derechos reservados.</p>
+      <p><a href="mailto:info@ejemplo.com">Contacto de soporte</a></p>
+    </footer>
+  </body>
+</html>

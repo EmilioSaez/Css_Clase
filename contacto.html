@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ejemplo de web semántica para aprender CSS." />
+    <title>La Identidad Digital de Nuestro Instituto</title>
+    <meta property="og:title" content="La Identidad Digital de Nuestro Instituto" />
+    <meta property="og:description" content="Información sobre la identidad digital del Instituto El Caminas." />
+    <meta property="og:image" content="Logo_Caminas.png" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="IES El Caminas" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="icon" href="Logo_Caminas.png" type="image/png" />
+</head>
+
+<body>
+
+    <header id="main-header">
+        <nav id="main-nav">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html">Indice</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+            </ul>
+        </nav>
+        <h1 id="main-title">IES El Caminas</h1>
+    </header>
+    <main>
+        <form action="/registrar" method="post">
+            <fieldset>
+                <legend>Matriculación</legend>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                <label for="fecha_nac">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nac" name="fecha_nac">
+
+                <label for="Eleccion Ciclo">Elige el ciclo</label>
+                <select name="Ciclo">
+                    <option value="fpb_ceramica">FPB - Fabricación de Elementos Cerámicos</option>
+                    <option value="gm_ceramica">GM - Fabricación de Productos Cerámicos</option>
+                    <option value="gs_ceramica">GS - Desarrollo y Fabricación de Productos Cerámicos</option>
+                    <option value="fpb_comercio">FPB - Servicios Comerciales</option>
+                    <option value="gm_comercio">GM - Actividades Comerciales</option>
+                    <option value="gs_ventas">GS - Gestión de Ventas y Espacios Comerciales</option>
+                    <option value="gs_internacional">GS - Comercio Internacional</option>
+                    <option value="gs_logistica">GS - Transporte y Logística</option>
+                    <option value="fpb_informatica">FPB - Informática y Comunicaciones</option>
+                    <option value="gm_smr">GM - Sistemas Microinformáticos y Redes (SMR)</option>
+                    <option value="gs_asir">GS - Administración de Sistemas Informáticos en Red (ASIR)</option>
+                    <option value="gs_dam">GS - Desarrollo de Aplicaciones Multiplataforma (DAM)</option>
+                    <option value="gs_daw">GS - Desarrollo de Aplicaciones Web (DAW)</option>
+                    <option value="ce_ciberseguridad">Especialización - Ciberseguridad en Entornos TI</option>
+                </select>
+                <label for="terminos">Acepto los términos:</label>
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

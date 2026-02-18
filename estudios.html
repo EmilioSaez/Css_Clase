@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ejemplo de web semántica para aprender CSS." />
+    <title>La Identidad Digital de Nuestro Instituto</title>
+    <meta property="og:title" content="La Identidad Digital de Nuestro Instituto" />
+    <meta property="og:description" content="Información sobre la identidad digital del Instituto El Caminas." />
+    <meta property="og:image" content="Logo_Caminas.png" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="IES El Caminas" />
+
+    <link rel="stylesheet" href="estudios.css" />
+
+    <link rel="icon" href="Logo_Caminas.png" type="image/png" />
+</head>
+
+<body>
+
+    <header id="main-header">
+        <nav id="main-nav">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html">Indice</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+            </ul>
+        </nav>
+        <h1 id="main-title">IES El Caminas</h1>
+    </header>
+    <main>
+        <header>
+            <table border="1" id="main-tabla">
+                <thead>
+                    <tr>
+                        <th colspan="6">Desarrollo de aplicaciones multiplataforma</th>
+                    </tr>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>15:00-15:55</th>
+                        <td>Sistemas informáticos</td>
+                        <td>Bases de datos</td>
+                        <td>Inglés Profesional G</td>
+                        <td>Proyecto Intermodular</td>
+                        <td>Bases de Datos</td>
+                    </tr>
+                    <tr>
+                        <th>15:55-16:50</th>
+                        <td>Sistemas informáticos</td>
+                        <td>Bases de datos</td>
+                        <td>Itinerario Personal</td>
+                        <td>Sistemas Informáticos</td>
+                        <td>Bases de datos</td>
+                    </tr>
+                    <tr>
+                        <th>16:50-17:45</th>
+                        <td>Lenguaje de marcas</td>
+                        <td>Bases de datos</td>
+                        <td>Sistemas Informáticos</td>
+                        <td>Lenguaje de Marcas</td>
+                        <td>Programación</td>
+                    </tr>
+                    <tr>
+                        <th>17:45-18:10</th>
+                        <td colspan="5" align="center">PATIO</td>
+                    </tr>
+                    <tr>
+                        <th>18:10-19:05</th>
+                        <td>Lenguaje de Marcas</td>
+                        <td>Programación</td>
+                        <td>Sistemas informáticos</td>
+                        <td>Entornos de Desarrollo</td>
+                        <td>Programación</td>
+                    </tr>
+                    <tr>
+                        <th>19:05-20:00</th>
+                        <td>Itinerario Personal</td>
+                        <td>Programación</td>
+                        <td>Programación</td>
+                        <td>Entornos de Desarrollo</td>
+                        <td>Programación</td>
+                    </tr>
+                    <tr>
+                        <th>20:00-20:55</th>
+                        <td>Entornos de Desarrollo</td>
+                        <td>Programación</td>
+                        <td>Programación</td>
+                        <td>Itinerario Personal</td>
+                        <td>Inglés Profesional G</td>
+                    </tr>
+                </tbody>
+            </table>
+        </header>
+        <footer> <!-- La información de los profesores no la encontre, asi que puse la de los cilos de cada departamento-->>
+            <details> 
+                <summary>Administración y Gestión</summary>
+                <p>Gestión administrativa LFP</p>
+                <p>Administración y finanzas LFP</p>
+                <p>Asistencia a la dirección LFP</p>
+            </details>
+            <details>
+                <summary>Vidrio y Cerámica</summary>
+                <p>Fabricación de Productos Cerámicos</p>
+                <p>Desarrollo y Fabricación de Productos Cerámicos.</p>
+            </details>
+            <details>
+                <summary>Comercio</summary>
+                <p>Gestión de Ventas</p>
+                <p>Comercio Internacional</p>
+                <p>Transporte y Logística</p>
+            </details>
+            <details>
+                <summary>Informática y Comunicaciones</summary>
+                <p>SMR </p>
+                <p>ASIR</p>
+                <p>DAM</p>
+                <p>DAW</p>
+            </details>
+        </footer>
+    </main>
+    <footer>
+        <canvas id="miLienzo" width="400" height="200" style="border: 2px solid black;">
+            Tu navegador no soporta canvas.
+            </canva>
+            <script>
+                const canvas = document.getElementById('miLienzo');
+                const ctx = canvas.getContext('2d')
+                ctx.fillStyle = 'green'
+                ctx.fillRect(30, 30, 150, 150)
+            </script>
+    </footer>
+</body>
+
+</html>

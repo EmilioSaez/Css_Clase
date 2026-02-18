@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+#main-tabla {
+  width: 100%;
+  font-size: 14px;
+}
+#main-tabla td:hover{
+background-color: #f5f5f5;
+   
+}
+#main-title {
+  background-image: url("CaminasImagenFondo2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  color: white;
+  font: 150% sans-serif;
+  font-size: 40px;
+}
+body {
+  background-color: #7d8471;
+}
+
+#article-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+#main-video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+#nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.contenedor {
+ width: 100%;
+}
+.columnas {
+ display: flex;
+ flex-direction: column;
+}
+@media (min-width: 768px) {
+ .columnas {
+ flex-direction: row;
+ }
+ #article-header {
+  flex-direction: row; 
+ }
+ #main-nav ul {
+  flex-direction: row; 
+  gap: 50px; 
+ }
+}
+
+@media (min-width: 1024px) {
+ #main-title {
+  height: 500px;
+  font-size: 100px;
+ }
+ #main-video {
+  width: 60%;
+ }
+ #main-tabla {
+  font-size: 16px; 
+  display: table; 
+ }
+}

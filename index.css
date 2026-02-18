@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-title {
+  background-image: url("CaminasImagenFondo2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  color: white;
+  font: 150% sans-serif;
+  font-size: 40px;
+}
+body {
+  background-color: #7d8471;
+}
+
+#article-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+#main-video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+#nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contenedor-grid {
+ display: grid;
+ height: 100vh;
+
+ grid-template-columns: 1fr;
+ grid-template-rows: auto 1fr auto;
+
+ gap: 10px;
+}
+header, main, footer {
+ padding: 20px;
+ text-align: center;
+}
+.contenedor-principal {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: auto 1fr auto;
+ grid-template-areas:
+ "header"
+ "sidebar"
+ "main"
+ "footer";
+ gap: 20px;
+ box-sizing: border-box;
+}
+header, .sidebar, .main-content, footer {
+ padding: 20px;
+}
+header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main-content { grid-area: main; }
+footer { grid-area: footer; }
+body {
+ margin: 0;
+}
+.contenedor {
+ width: 100%;
+}
+.columnas {
+ display: flex;
+ flex-direction: column;
+}
+@media (min-width: 768px) {
+ .columnas {
+ flex-direction: row;
+ }
+ #article-header {
+  flex-direction: row;
+ }
+ #main-nav ul {
+  flex-direction: row;
+  gap: 50px;
+ }
+}
+
+@media (min-width: 1024px) {
+ #main-title {
+  height: 500px;
+  font-size: 100px;
+ }
+ #main-video {
+  width: 60%;
+ }
+ .contenedor-principal {
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+  "header header"
+  "sidebar main"
+  "footer footer";
+ }
+}
