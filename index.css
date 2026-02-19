@@ -81,6 +81,9 @@ header, main, footer {
  gap: 20px;
  box-sizing: border-box;
 }
+.contenedor-principal img{
+  width: 100%;
+ }
 header, .sidebar, .main-content, footer {
  padding: 20px;
 }
