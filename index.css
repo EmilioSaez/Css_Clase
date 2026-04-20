@@ -1,6 +1,24 @@
 * {
   box-sizing: border-box;
 }
+#contenedor-noticias {
+  background-color: #7d8471;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.noticia-item h3 {
+  color: #7d8471; /* El color verde de tu body */
+  margin-bottom: 5px;
+}
+
+.noticia-item small {
+  color: #666;
+  font-style: italic;
+}
 
 #main-title {
   background-image: url("CaminasImagenFondo2.png");
