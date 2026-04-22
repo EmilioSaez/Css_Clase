@@ -1,6 +1,17 @@
 * {
   box-sizing: border-box;
 }
+#boton-ordenar{
+  background-color: #a0be6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
 #contenedor-noticias {
   background-color: #7d8471;
   padding: 20px;
