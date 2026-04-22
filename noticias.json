@@ -1,18 +1,42 @@
 [
     {
-    "id": 1,
-    "titulo": "Nueva Jornada de Puertas Abiertas",
-    "fecha": "2026-04-15",
-    "contenido": "Ven a conocer nuestras instalaciones el próximo miércoles...",
-    "categoria": "Eventos",
-    "importante": true
+      "id": 1,
+      "titulo": "Nueva Jornada de Puertas Abiertas",
+      "fecha": "2026-04-15",
+      "contenido": "Ven a conocer nuestras instalaciones el próximo miércoles...",
+      "categoria": "Eventos",
+      "importante": false
     },
     {
-    "id": 2,
-    "titulo": "Ganadores del Certamen Literario",
-    "fecha": "2026-04-10",
-    "contenido": "Felicitamos a los alumnos de 2º de Bachillerato por sus premios...",
-    "categoria": "Cultura",
-    "importante": false
+      "id": 2,
+      "titulo": "Ganadores del Certamen Literario",
+      "fecha": "2026-04-10",
+      "contenido": "Felicitamos a los alumnos de 2º de Bachillerato por sus premios...",
+      "categoria": "Cultura",
+      "importante": true
+    },
+    {
+      "id": 3,
+      "titulo": "Actualización del Menú Escolar",
+      "fecha": "2026-04-18",
+      "contenido": "Ya está disponible el nuevo menú mensual con opciones veganas y adaptaciones para alérgicos...",
+      "categoria": "Servicios",
+      "importante": false
+    },
+    {
+      "id": 4,
+      "titulo": "Suspensión de Clases por Festividad",
+      "fecha": "2026-04-20",
+      "contenido": "Recordamos a la comunidad educativa que el próximo lunes no habrá actividad lectiva...",
+      "categoria": "Avisos",
+      "importante": true
+    },
+    {
+      "id": 5,
+      "titulo": "Éxito en el Torneo de Ajedrez",
+      "fecha": "2026-04-21",
+      "contenido": "Nuestro equipo de primaria se ha alzado con el trofeo regional tras una final emocionante...",
+      "categoria": "Deportes",
+      "importante": false
     }
-]
+  ]

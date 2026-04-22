@@ -11,12 +11,12 @@
 }
 
 .noticia-item h3 {
-  color: #7d8471; /* El color verde de tu body */
+  color: white;
   margin-bottom: 5px;
 }
 
 .noticia-item small {
-  color: #666;
+  color: white;
   font-style: italic;
 }
 
